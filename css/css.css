@@ -1,0 +1,79 @@
+.container main{
+    display: flex;
+    align-items: stretch;
+  }
+
+  .gmap_canvas {
+    position: relative;
+  }
+
+
+  /*Skills*/
+.skill-name {
+    color: #fff;
+    display: none;
+}
+
+.skills-link:hover .skill-name {
+    display: table;
+    margin: 0 auto;
+}
+
+.skills-link:hover .two-lines {
+    margin-top: -5px;
+}
+
+
+
+.skills-link:hover .skill-icon {
+    display: none;
+}
+
+#skills {
+    text-align: center;
+}
+
+#skills .skills-item {
+    right: 0;
+    margin-top: 0px;
+    display: inline-block;
+    width: 95px;
+    height:95px;
+    overflow: hidden;
+}
+
+#skills .skills-item .skills-link {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    background-color: #0F1A23;
+    text-align: center;
+    padding-top: 25px;
+    box-sizing: border-box;
+}
+
+#skills .skills-link:hover {
+    background-color: #000;
+    -webkit-transition: all ease 1.25s;
+    -moz-transition: all ease 1.25s;
+    transition: all ease 1.25s;
+}
+
+#skills .skill-love:hover {
+    background-color: #FF0000;
+    -webkit-transition: all ease 1.25s;
+    -moz-transition: all ease 1.25s;
+    transition: all ease 1.25s;
+}
+
+#skills * {
+    z-index: 2;
+}
+
+.col-sm-1 {
+    padding: 0;
+}
+/*End of skills*/
+
